@@ -344,15 +344,6 @@ A useful troubleshooting sequence is:
 5. Inspect the client and server logs during a connection attempt.
 6. Verify that client and server settings match.
 
-## 10. Security Notes
-
-- Never commit private keys, UUIDs, actual short IDs, or complete client profiles containing credentials.
-- Use SSH keys and restrict SSH access to trusted sources where practical.
-- Keep the operating system and Xray installation updated.
-- Expose only the ports required for your deployment.
-- Keep the local SOCKS listener bound to loopback unless remote access is explicitly required and secured.
-- Avoid publishing screenshots that expose connection details or infrastructure credentials.
-- Review Azure networking rules and monitor service logs periodically.
 
 ## Learning Outcomes
 
