@@ -28,6 +28,12 @@ This README documents the server setup, key generation, firewall configuration, 
 
 ## Architecture
 
+## Architecture
+
+![Xray deployment architecture](docs/architecture.png)
+
+*High-level architecture of the Xray deployment on Azure.*
+
 The deployment uses a Linux VM as the Xray server. A compatible client connects to the server using VLESS over TCP with REALITY security and Vision flow.
 
 ```text
@@ -206,6 +212,9 @@ Check the service status:
 ```bash
 sudo systemctl status xray
 ```
+### Service Status
+
+![Xray service status](screenshots/xray-service.png)
 
 Inspect recent logs:
 
@@ -234,6 +243,9 @@ From Windows PowerShell, replace `YOUR_VPS_IP` with the VM's public IP address.
 ```powershell
 Test-NetConnection YOUR_VPS_IP -Port 443
 ```
+### Connectivity Verification
+
+![TCP connectivity test](screenshots/connectivity-test.png)
 
 Look for:
 
