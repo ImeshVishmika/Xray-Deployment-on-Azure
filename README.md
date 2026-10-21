@@ -1,5 +1,11 @@
 # Xray VLESS + REALITY Deployment on Azure
 
+![Azure](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4?logo=microsoftazure&logoColor=white)
+![Linux](https://img.shields.io/badge/OS-Linux-FCC624?logo=linux&logoColor=black)
+![Xray](https://img.shields.io/badge/Network-Xray-5E81AC)
+![VLESS](https://img.shields.io/badge/Protocol-VLESS-6C5CE7)
+![REALITY](https://img.shields.io/badge/Security-REALITY-2E8B57)
+
 A personal deployment guide for installing and configuring [Xray-core](https://github.com/XTLS/Xray-core) on a Linux virtual machine using **VLESS + REALITY + Vision**.
 
 This README documents the server setup, key generation, firewall configuration, client configuration, and connectivity testing.
